@@ -1,0 +1,294 @@
+
+:root {
+    --primary-color: #182B47;;
+    --button: #DEBC64;
+    --light:  #fff;
+    --dark: #000;
+    --footer: #0E1C32;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.body{
+    background-color: #F5F5F5;
+}
+
+div {
+    margin: 0;
+}
+
+/* Styling Nav */
+.showcase {
+    height: 30rem;
+    background-image:url('https://res.cloudinary.com/opejinabdul/image/upload/v1592570701/vector_qarjuq.png');
+    margin-bottom: 3.5rem;
+}
+
+.showcase #showcase-text {
+    height: 80%;
+    color: var(--light);
+    text-align: center;
+}
+
+nav{
+    background-color: #182B47 !important;
+    padding: 20px 30px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_text{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF !important;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-item{
+    font-family: 'Open Sans';
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin: auto 7px;
+}
+.nav-item :hover{
+    border-bottom: 5px solid  #DEBC64;;
+}
+.nav-link{
+    color: #FFFFFF !important;
+}
+.active{
+   background-color: #DEBC64;
+   color: #182B47;
+}
+.book_online_btn{
+    margin-top: 40px;
+    padding: 5px 8px;
+    outline: none !important;
+    margin-left: 20px;
+    background: #DEBC64;
+    border: 1px solid #DEBC64;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.book_online_btn:hover{
+    outline: none;
+    background-color: #F5F5F5;
+}
+/*Styling Nav Ends*/
+
+/*Avalible room section styling starts*/
+.rooms .room-row {
+    display: flex;
+    border: 1px var(--primary-color) solid;
+    margin-bottom: 3rem;
+}
+
+.rooms .room-row div:nth-child(1) {
+    flex: 1.3;
+}
+
+.rooms .room-row div:nth-child(1) img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
+.rooms .room-row div:nth-child(2) {
+    background-color: var(--primary-color);
+    color: var(--light);
+    flex: 2;
+    padding-left: .8rem;
+    padding-right: 4rem;
+}
+
+.rooms .room-row div:nth-child(2) p {
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.rooms .room-row div:nth-child(3) {
+    flex: 1;
+    align-self: center;
+    text-align: center;
+}
+
+.rooms .room-row div:nth-child(3) p {
+    font-size: .1.5rem;
+    font-weight: 500;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.rooms .room-row div:nth-child(3) .btn-room {
+    background-color: var(--button);
+    border: none;
+    padding: .75rem 1rem;
+    font-size: .7rem;
+    font-weight: 700;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+.rooms .room-row div:nth-child(3) a {
+    text-decoration: none;
+    color: var(--dark);
+}
+/*Avalible room section styling endss*/
+
+/*NEXT AND PREVIOUS STYLING SECTION STARTS*/
+.round-control {
+    margin: 2.5rem 0 6.5rem 0;
+}
+
+.round-control .previous,
+.round-control .next {
+    height: 3rem;
+    border: .08rem var(--button) solid;
+    border-radius: 2.8rem;
+    text-align: center;
+    padding: .75rem;
+}
+
+.round-control .next {
+    padding: .75rem 1.2rem;
+}
+
+.round-control .round {
+    height: 3rem;
+    width: 3rem;
+    border: .08rem var(--button) solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: .75rem;
+    margin: 0 .5rem;
+}
+
+.round-control .dotted {
+    height: .5rem;
+    width: .5rem;
+    border: .08rem var(--button) solid;
+    border-radius: 50%;
+    background-color: var(--button);
+    margin: 0 .4rem;
+}
+/*NEXT AND PREVIOUS STYLING SECTION ENDS*/
+
+/*Footer section styling*/
+footer{
+    color: #FFFFFF;
+    background: #182B47;
+}
+.footer_1{
+    padding: 100px 70px;
+    padding-bottom: 30px;
+}
+.footer_1 input{
+    background-color: #F5F5F5;
+    color: #828282;
+}
+.new_letter_btn{
+    background-color: #DEBC64;
+    color: #FFFFFF;
+    border: 1px solid #DEBC64;
+    padding: 7px 10px;
+    font-family: 'Open Sans';
+    margin-left: 20px;
+}
+.new_letter_btn:hover, .new_letter_btn:focus{
+    background-color: #FFFFFF;
+    color: #DEBC64;
+}
+.news_letter{
+    display: flex;
+}
+.footer_company{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.footer_link{
+    margin: 2px auto;
+}
+
+.footer_link a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer_contact_spot ion-icon{
+    margin-right: 20px;
+    font-size: 24px;
+}
+.footer_2{
+    background: #0E1C32;
+    display: flex;
+    justify-content:center ;
+}
+.footer_2 p{
+    padding: 20px 0;
+    margin: 0;
+}
+
+@media(max-width:768px){
+    .round-control .round {
+    display: none;
+    }
+}
+
+@media(max-width:1000px) {
+    .rooms .room-row {
+        display: flex;
+        flex-direction: column;
+        color: var(--light);
+        border: 1px var(--primary-color) solid;
+    }
+
+    .rooms .room-row .room-text { 
+        display: none;
+        padding: 0;
+    }
+
+    .rooms .room-row img {  /* Image responsiveness*/
+        
+    } 
+
+    .rooms .room-row div:nth-child(3) {
+        padding: 1rem 0;
+    }
+}
+
+
+@media(min-width:800px){
+    .book_online_btn{
+        margin-top: 0;
+    }
+    .active{
+        background-color: transparent;
+        color: #FFFFFF;
+        border-bottom: 5px solid  #DEBC64;;
+    }
+    .contact_telephone{
+        font-size: 64px;
+    }
+    .new_letter_btn{
+        padding: 7px 50px;
+    }
+    .footer_company{
+        margin-top: auto;
+    }
+}
+
+
